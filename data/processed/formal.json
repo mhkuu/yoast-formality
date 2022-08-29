@@ -1,0 +1,552 @@
+[
+  {
+    "index": 0,
+    "features": {
+      "averageSentenceLength": 84.24137931034483,
+      "averageWordLengthPerSentence": 13.758620689655173,
+      "averageWordLength": 5.082706766917293,
+      "averagePassives": 0.1724137931034483,
+      "averageFormalPronouns": 0.015037593984962405,
+      "averageInformalPronouns": 0
+    }
+  },
+  {
+    "index": 1,
+    "features": {
+      "averageSentenceLength": 88.30434782608695,
+      "averageWordLengthPerSentence": 14.152173913043478,
+      "averageWordLength": 5.17357910906298,
+      "averagePassives": 0.2826086956521739,
+      "averageFormalPronouns": 0.010752688172043012,
+      "averageInformalPronouns": 0
+    }
+  },
+  {
+    "index": 2,
+    "features": {
+      "averageSentenceLength": 122.59292035398231,
+      "averageWordLengthPerSentence": 20.23008849557522,
+      "averageWordLength": 4.965879265091863,
+      "averagePassives": 0.25663716814159293,
+      "averageFormalPronouns": 0.046806649168853895,
+      "averageInformalPronouns": 0.0017497812773403325
+    }
+  },
+  {
+    "index": 3,
+    "features": {
+      "averageSentenceLength": 114.16666666666667,
+      "averageWordLengthPerSentence": 18.30952380952381,
+      "averageWordLength": 5.152145643693108,
+      "averagePassives": 0.14285714285714285,
+      "averageFormalPronouns": 0.015604681404421327,
+      "averageInformalPronouns": 0.005201560468140442
+    }
+  },
+  {
+    "index": 4,
+    "features": {
+      "averageSentenceLength": 87.66666666666667,
+      "averageWordLengthPerSentence": 14.033333333333333,
+      "averageWordLength": 5.206650831353919,
+      "averagePassives": 0.16666666666666666,
+      "averageFormalPronouns": 0.004750593824228029,
+      "averageInformalPronouns": 0.0166270783847981
+    }
+  },
+  {
+    "index": 5,
+    "features": {
+      "averageSentenceLength": 179.16216216216216,
+      "averageWordLengthPerSentence": 28.945945945945947,
+      "averageWordLength": 5.057889822595705,
+      "averagePassives": 0.2702702702702703,
+      "averageFormalPronouns": 0.022408963585434174,
+      "averageInformalPronouns": 0.0009337068160597573
+    }
+  },
+  {
+    "index": 6,
+    "features": {
+      "averageSentenceLength": 121.16666666666667,
+      "averageWordLengthPerSentence": 19.666666666666668,
+      "averageWordLength": 5.084745762711864,
+      "averagePassives": 0.09523809523809523,
+      "averageFormalPronouns": 0.012106537530266344,
+      "averageInformalPronouns": 0
+    }
+  },
+  {
+    "index": 7,
+    "features": {
+      "averageSentenceLength": 84.62637362637362,
+      "averageWordLengthPerSentence": 14.483516483516484,
+      "averageWordLength": 4.773141122913505,
+      "averagePassives": 0.21978021978021978,
+      "averageFormalPronouns": 0.024279210925644917,
+      "averageInformalPronouns": 0.002276176024279211
+    }
+  },
+  {
+    "index": 8,
+    "features": {
+      "averageSentenceLength": 120.3125,
+      "averageWordLengthPerSentence": 19.875,
+      "averageWordLength": 4.930817610062893,
+      "averagePassives": 0.3125,
+      "averageFormalPronouns": 0.015723270440251572,
+      "averageInformalPronouns": 0
+    }
+  },
+  {
+    "index": 9,
+    "features": {
+      "averageSentenceLength": 122.07692307692308,
+      "averageWordLengthPerSentence": 21.666666666666668,
+      "averageWordLength": 4.543195266272189,
+      "averagePassives": 0.20512820512820512,
+      "averageFormalPronouns": 0.01301775147928994,
+      "averageInformalPronouns": 0
+    }
+  },
+  {
+    "index": 10,
+    "features": {
+      "averageSentenceLength": 158.7962962962963,
+      "averageWordLengthPerSentence": 25.5,
+      "averageWordLength": 5.156136528685549,
+      "averagePassives": 0.24074074074074073,
+      "averageFormalPronouns": 0.01670297748729121,
+      "averageInformalPronouns": 0
+    }
+  },
+  {
+    "index": 11,
+    "features": {
+      "averageSentenceLength": 91,
+      "averageWordLengthPerSentence": 14.9,
+      "averageWordLength": 5.0134228187919465,
+      "averagePassives": 0.5,
+      "averageFormalPronouns": 0,
+      "averageInformalPronouns": 0.020134228187919462
+    }
+  },
+  {
+    "index": 12,
+    "features": {
+      "averageSentenceLength": 140.76,
+      "averageWordLengthPerSentence": 23.02,
+      "averageWordLength": 5.012163336229365,
+      "averagePassives": 0.2,
+      "averageFormalPronouns": 0.03214596003475239,
+      "averageInformalPronouns": 0.004344048653344918
+    }
+  },
+  {
+    "index": 13,
+    "features": {
+      "averageSentenceLength": 159.65,
+      "averageWordLengthPerSentence": 26.7,
+      "averageWordLength": 4.902621722846442,
+      "averagePassives": 0.45,
+      "averageFormalPronouns": 0.00749063670411985,
+      "averageInformalPronouns": 0
+    }
+  },
+  {
+    "index": 14,
+    "features": {
+      "averageSentenceLength": 113.79032258064517,
+      "averageWordLengthPerSentence": 18,
+      "averageWordLength": 5.237455197132617,
+      "averagePassives": 0.25806451612903225,
+      "averageFormalPronouns": 0.007168458781362007,
+      "averageInformalPronouns": 0
+    }
+  },
+  {
+    "index": 15,
+    "features": {
+      "averageSentenceLength": 127.3076923076923,
+      "averageWordLengthPerSentence": 20.403846153846153,
+      "averageWordLength": 5.133836003770028,
+      "averagePassives": 0.2692307692307692,
+      "averageFormalPronouns": 0.020735155513666354,
+      "averageInformalPronouns": 0.001885014137606032
+    }
+  },
+  {
+    "index": 16,
+    "features": {
+      "averageSentenceLength": 171,
+      "averageWordLengthPerSentence": 28.545454545454547,
+      "averageWordLength": 4.907643312101911,
+      "averagePassives": 0.45454545454545453,
+      "averageFormalPronouns": 0.01592356687898089,
+      "averageInformalPronouns": 0
+    }
+  },
+  {
+    "index": 17,
+    "features": {
+      "averageSentenceLength": 160.3968253968254,
+      "averageWordLengthPerSentence": 27.126984126984127,
+      "averageWordLength": 4.85020479812756,
+      "averagePassives": 0.23809523809523808,
+      "averageFormalPronouns": 0.03861907548273844,
+      "averageInformalPronouns": 0.018139262726740785
+    }
+  },
+  {
+    "index": 18,
+    "features": {
+      "averageSentenceLength": 132.2058823529412,
+      "averageWordLengthPerSentence": 25.705882352941178,
+      "averageWordLength": 4.090389016018307,
+      "averagePassives": 0.23529411764705882,
+      "averageFormalPronouns": 0.05377574370709382,
+      "averageInformalPronouns": 0.06750572082379863
+    }
+  },
+  {
+    "index": 19,
+    "features": {
+      "averageSentenceLength": 81.35,
+      "averageWordLengthPerSentence": 14.85,
+      "averageWordLength": 4.314814814814815,
+      "averagePassives": 0,
+      "averageFormalPronouns": 0.03872053872053872,
+      "averageInformalPronouns": 0.026936026936026935
+    }
+  },
+  {
+    "index": 20,
+    "features": {
+      "averageSentenceLength": 122.55882352941177,
+      "averageWordLengthPerSentence": 21.176470588235293,
+      "averageWordLength": 4.704166666666667,
+      "averagePassives": 0.08823529411764706,
+      "averageFormalPronouns": 0.002777777777777778,
+      "averageInformalPronouns": 0.018055555555555554
+    }
+  },
+  {
+    "index": 21,
+    "features": {
+      "averageSentenceLength": 112,
+      "averageWordLengthPerSentence": 18.55,
+      "averageWordLength": 4.951482479784366,
+      "averagePassives": 0.3,
+      "averageFormalPronouns": 0.005390835579514825,
+      "averageInformalPronouns": 0
+    }
+  },
+  {
+    "index": 22,
+    "features": {
+      "averageSentenceLength": 135.1875,
+      "averageWordLengthPerSentence": 21.9375,
+      "averageWordLength": 5.071225071225071,
+      "averagePassives": 0.25,
+      "averageFormalPronouns": 0.018518518518518517,
+      "averageInformalPronouns": 0.0014245014245014246
+    }
+  },
+  {
+    "index": 23,
+    "features": {
+      "averageSentenceLength": 275.57142857142856,
+      "averageWordLengthPerSentence": 47.714285714285715,
+      "averageWordLength": 4.661676646706587,
+      "averagePassives": 0.14285714285714285,
+      "averageFormalPronouns": 0.06287425149700598,
+      "averageInformalPronouns": 0.014970059880239521
+    }
+  },
+  {
+    "index": 24,
+    "features": {
+      "averageSentenceLength": 99.27272727272727,
+      "averageWordLengthPerSentence": 16.545454545454547,
+      "averageWordLength": 4.983516483516484,
+      "averagePassives": 0.2727272727272727,
+      "averageFormalPronouns": 0.02197802197802198,
+      "averageInformalPronouns": 0.005494505494505495
+    }
+  },
+  {
+    "index": 25,
+    "features": {
+      "averageSentenceLength": 143.42105263157896,
+      "averageWordLengthPerSentence": 24.894736842105264,
+      "averageWordLength": 4.717758985200845,
+      "averagePassives": 0.13157894736842105,
+      "averageFormalPronouns": 0.05391120507399577,
+      "averageInformalPronouns": 0.02854122621564482
+    }
+  },
+  {
+    "index": 26,
+    "features": {
+      "averageSentenceLength": 126.76811594202898,
+      "averageWordLengthPerSentence": 21.405797101449274,
+      "averageWordLength": 4.865267433987813,
+      "averagePassives": 0.17391304347826086,
+      "averageFormalPronouns": 0.02098849018280298,
+      "averageInformalPronouns": 0.012863913337846988
+    }
+  },
+  {
+    "index": 27,
+    "features": {
+      "averageSentenceLength": 137.56666666666666,
+      "averageWordLengthPerSentence": 22.533333333333335,
+      "averageWordLength": 5.044378698224852,
+      "averagePassives": 0.03333333333333333,
+      "averageFormalPronouns": 0.019230769230769232,
+      "averageInformalPronouns": 0.04585798816568047
+    }
+  },
+  {
+    "index": 28,
+    "features": {
+      "averageSentenceLength": 51.975903614457835,
+      "averageWordLengthPerSentence": 8.534136546184738,
+      "averageWordLength": 5.092705882352941,
+      "averagePassives": 0.11244979919678715,
+      "averageFormalPronouns": 0.014588235294117647,
+      "averageInformalPronouns": 0.004705882352941176
+    }
+  },
+  {
+    "index": 29,
+    "features": {
+      "averageSentenceLength": 136.55555555555554,
+      "averageWordLengthPerSentence": 22.755555555555556,
+      "averageWordLength": 4.92578125,
+      "averagePassives": 0.2,
+      "averageFormalPronouns": 0.02734375,
+      "averageInformalPronouns": 0.0205078125
+    }
+  },
+  {
+    "index": 30,
+    "features": {
+      "averageSentenceLength": 98.16981132075472,
+      "averageWordLengthPerSentence": 17.0188679245283,
+      "averageWordLength": 4.685144124168515,
+      "averagePassives": 0.24528301886792453,
+      "averageFormalPronouns": 0.018847006651884702,
+      "averageInformalPronouns": 0.011086474501108648
+    }
+  },
+  {
+    "index": 31,
+    "features": {
+      "averageSentenceLength": 136.4516129032258,
+      "averageWordLengthPerSentence": 22.64516129032258,
+      "averageWordLength": 4.9245014245014245,
+      "averagePassives": 0.1935483870967742,
+      "averageFormalPronouns": 0.02564102564102564,
+      "averageInformalPronouns": 0.01566951566951567
+    }
+  },
+  {
+    "index": 32,
+    "features": {
+      "averageSentenceLength": 111.44711538461539,
+      "averageWordLengthPerSentence": 18.072115384615383,
+      "averageWordLength": 5.104815110401702,
+      "averagePassives": 0.3076923076923077,
+      "averageFormalPronouns": 0.030061186485767492,
+      "averageInformalPronouns": 0.0037243947858473
+    }
+  },
+  {
+    "index": 33,
+    "features": {
+      "averageSentenceLength": 139.03125,
+      "averageWordLengthPerSentence": 21.46875,
+      "averageWordLength": 5.413391557496361,
+      "averagePassives": 0.0625,
+      "averageFormalPronouns": 0.026200873362445413,
+      "averageInformalPronouns": 0.001455604075691412
+    }
+  },
+  {
+    "index": 34,
+    "features": {
+      "averageSentenceLength": 174.60714285714286,
+      "averageWordLengthPerSentence": 26.75,
+      "averageWordLength": 5.4392523364485985,
+      "averagePassives": 0.35714285714285715,
+      "averageFormalPronouns": 0.030707610146862484,
+      "averageInformalPronouns": 0.006675567423230975
+    }
+  },
+  {
+    "index": 35,
+    "features": {
+      "averageSentenceLength": 117.15523465703971,
+      "averageWordLengthPerSentence": 18.03610108303249,
+      "averageWordLength": 5.3857085668534825,
+      "averagePassives": 0.37906137184115524,
+      "averageFormalPronouns": 0.013811048839071256,
+      "averageInformalPronouns": 0
+    }
+  },
+  {
+    "index": 36,
+    "features": {
+      "averageSentenceLength": 59.74074074074074,
+      "averageWordLengthPerSentence": 10.101851851851851,
+      "averageWordLength": 4.637946837763519,
+      "averagePassives": 0.1388888888888889,
+      "averageFormalPronouns": 0.05774518790100825,
+      "averageInformalPronouns": 0
+    }
+  },
+  {
+    "index": 37,
+    "features": {
+      "averageSentenceLength": 137.625,
+      "averageWordLengthPerSentence": 21.535714285714285,
+      "averageWordLength": 5.318407960199005,
+      "averagePassives": 0.25,
+      "averageFormalPronouns": 0.01824212271973466,
+      "averageInformalPronouns": 0
+    }
+  },
+  {
+    "index": 38,
+    "features": {
+      "averageSentenceLength": 156,
+      "averageWordLengthPerSentence": 26.03448275862069,
+      "averageWordLength": 4.936423841059603,
+      "averagePassives": 0.1724137931034483,
+      "averageFormalPronouns": 0.015894039735099338,
+      "averageInformalPronouns": 0.0013245033112582781
+    }
+  },
+  {
+    "index": 39,
+    "features": {
+      "averageSentenceLength": 146.75862068965517,
+      "averageWordLengthPerSentence": 24.20689655172414,
+      "averageWordLength": 4.927350427350428,
+      "averagePassives": 0.13793103448275862,
+      "averageFormalPronouns": 0.011396011396011397,
+      "averageInformalPronouns": 0
+    }
+  },
+  {
+    "index": 40,
+    "features": {
+      "averageSentenceLength": 110.94117647058823,
+      "averageWordLengthPerSentence": 18.529411764705884,
+      "averageWordLength": 4.926984126984127,
+      "averagePassives": 0,
+      "averageFormalPronouns": 0.01904761904761905,
+      "averageInformalPronouns": 0
+    }
+  },
+  {
+    "index": 41,
+    "features": {
+      "averageSentenceLength": 96.74358974358974,
+      "averageWordLengthPerSentence": 16.46153846153846,
+      "averageWordLength": 4.813084112149533,
+      "averagePassives": 0.358974358974359,
+      "averageFormalPronouns": 0.020249221183800622,
+      "averageInformalPronouns": 0
+    }
+  },
+  {
+    "index": 42,
+    "features": {
+      "averageSentenceLength": 89.3157894736842,
+      "averageWordLengthPerSentence": 15.210526315789474,
+      "averageWordLength": 4.823529411764706,
+      "averagePassives": 0.2631578947368421,
+      "averageFormalPronouns": 0.020761245674740483,
+      "averageInformalPronouns": 0
+    }
+  },
+  {
+    "index": 43,
+    "features": {
+      "averageSentenceLength": 138.07692307692307,
+      "averageWordLengthPerSentence": 21.53846153846154,
+      "averageWordLength": 5.335714285714285,
+      "averagePassives": 0.23076923076923078,
+      "averageFormalPronouns": 0.017857142857142856,
+      "averageInformalPronouns": 0
+    }
+  },
+  {
+    "index": 44,
+    "features": {
+      "averageSentenceLength": 143.11764705882354,
+      "averageWordLengthPerSentence": 21.58823529411765,
+      "averageWordLength": 5.553133514986376,
+      "averagePassives": 0.4117647058823529,
+      "averageFormalPronouns": 0.013623978201634877,
+      "averageInformalPronouns": 0
+    }
+  },
+  {
+    "index": 45,
+    "features": {
+      "averageSentenceLength": 123.5,
+      "averageWordLengthPerSentence": 21.055555555555557,
+      "averageWordLength": 4.775725593667546,
+      "averagePassives": 0.05555555555555555,
+      "averageFormalPronouns": 0.0079155672823219,
+      "averageInformalPronouns": 0
+    }
+  },
+  {
+    "index": 46,
+    "features": {
+      "averageSentenceLength": 107.75,
+      "averageWordLengthPerSentence": 17.55,
+      "averageWordLength": 5.0398860398860394,
+      "averagePassives": 0.2,
+      "averageFormalPronouns": 0.002849002849002849,
+      "averageInformalPronouns": 0
+    }
+  },
+  {
+    "index": 47,
+    "features": {
+      "averageSentenceLength": 135.47368421052633,
+      "averageWordLengthPerSentence": 22.31578947368421,
+      "averageWordLength": 5.02122641509434,
+      "averagePassives": 0.15789473684210525,
+      "averageFormalPronouns": 0.01650943396226415,
+      "averageInformalPronouns": 0
+    }
+  },
+  {
+    "index": 48,
+    "features": {
+      "averageSentenceLength": 133.9375,
+      "averageWordLengthPerSentence": 23.25,
+      "averageWordLength": 4.71505376344086,
+      "averagePassives": 0.125,
+      "averageFormalPronouns": 0.024193548387096774,
+      "averageInformalPronouns": 0.005376344086021506
+    }
+  },
+  {
+    "index": 49,
+    "features": {
+      "averageSentenceLength": 126.5,
+      "averageWordLengthPerSentence": 20.8,
+      "averageWordLength": 5.038461538461538,
+      "averagePassives": 0.3,
+      "averageFormalPronouns": 0.014423076923076924,
+      "averageInformalPronouns": 0.004807692307692308
+    }
+  }
+]

@@ -1,0 +1,1 @@
+# yoast-formality
