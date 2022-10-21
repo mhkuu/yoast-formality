@@ -9,14 +9,17 @@ import random
 
 from utils import tree_to_code
 
-FEATURE_NAMES = ["SentenceLength", "WordsPerSentence", "WordLength", "Passives", "FormalPronouns", "InformalPronouns"]
-VARIABLE_NAMES = ["charsPerSentence", "wordsPerSentence", "averageWordLength", "averagePassives",
-                  "averageFormalPronouns", "averageInformalPronouns"]
+FEATURE_NAMES = ["WordLength", "Passives", "FormalPronouns",
+                 "InformalPronouns", "Complexity", "FRE"]
+VARIABLE_NAMES = ["averageWordLength", "averagePassives", "averageFormalPronouns",
+                  "averageInformalPronouns", "proportionComplex", "fleschReadingEase"]
 
 INFORMAL_DATA_FILE = "data/processed/informal.json"
 FORMAL_DATA_FILE = "data/processed/formal.json"
 INFORMAL_DATA_FILE_BIGGER = "data/processed/informal_bigger.json"
 FORMAL_DATA_FILE_BIGGER = "data/processed/formal_bigger.json"
+FORMAL_DATA_FILE_TOS = "data/processed/formal_tos.json"
+FORMAL_DATA_FILE_PRIVACY = "data/processed/formal_privacy.json"
 
 averageSentenceLength = []
 averageWordLengthPerSentence = []
@@ -24,6 +27,8 @@ averageWordLength = []
 averagePassives = []
 averageFormalPronouns = []
 averageInformalPronouns = []
+proportionComplex = []
+fleschReadingEase = []
 labels = []
 
 
@@ -52,6 +57,8 @@ def load_data(filename: str, label: str, max_items=550):
             averagePassives.append(all_features.get("averagePassives"))
             averageFormalPronouns.append(all_features.get("averageFormalPronouns"))
             averageInformalPronouns.append(all_features.get("averageInformalPronouns"))
+            proportionComplex.append(all_features.get("proportionComplex"))
+            fleschReadingEase.append(all_features.get("fleschReadingEase"))
             if label == "formal":
                 labels.append(1)
             elif label == "informal":
@@ -75,11 +82,15 @@ def n_fold_cross_validation(X: np.ndarray, y: np.array, md: int, n: int = 10):
 
 
 def run_analysis(md=4, verbose=False):
-    X = np.array([averageSentenceLength, averageWordLengthPerSentence, averageWordLength,
-                  averagePassives, averageFormalPronouns, averageInformalPronouns]).T
+    X = np.array([averageWordLength,
+                  averagePassives,
+                  averageFormalPronouns,
+                  averageInformalPronouns,
+                  proportionComplex,
+                  fleschReadingEase]).T
     y = np.array(labels)
 
-    deci_tree = tree.DecisionTreeClassifier(max_depth=md, min_samples_leaf=50)
+    deci_tree = tree.DecisionTreeClassifier(max_depth=md)
     deci_tree = deci_tree.fit(X, y)
 
     if verbose:
@@ -101,12 +112,30 @@ def run_analysis(md=4, verbose=False):
     return n_fold_cross_validation(X, y, md, 10)
 
 
+def average(list_of_ints):
+    return round(sum(list_of_ints) / len(list_of_ints), 3)
+
+
+def print_averages():
+    print(average(averageSentenceLength))
+    print(average(averageWordLengthPerSentence))
+    print(average(averageWordLength))
+    print(average(averagePassives))
+    print(average(averageFormalPronouns))
+    print(average(averageInformalPronouns))
+    print(average(proportionComplex))
+    print(average(fleschReadingEase))
+
+
 def run_single():
     random.seed(13)
-    load_data(FORMAL_DATA_FILE, 'formal')
-    load_data(INFORMAL_DATA_FILE, 'informal')
-    load_data(FORMAL_DATA_FILE_BIGGER, 'formal')
+    # load_data(FORMAL_DATA_FILE, 'formal')
+    # load_data(INFORMAL_DATA_FILE, 'informal')
+    load_data(FORMAL_DATA_FILE_TOS, 'formal')
+    load_data(FORMAL_DATA_FILE_BIGGER, 'formal', max_items=435)
+    load_data(FORMAL_DATA_FILE_PRIVACY, 'formal')
     load_data(INFORMAL_DATA_FILE_BIGGER, 'informal')
+
     run_analysis(verbose=True)
 
 
@@ -127,4 +156,14 @@ def check_seeds():
 
 
 if __name__ == "__main__":
+    # load_data(FORMAL_DATA_FILE_PRIVACY, 'formal')
+    # load_data(FORMAL_DATA_FILE_TOS, 'formal')
+    # print_averages()
+
+    # load_data(FORMAL_DATA_FILE_BIGGER, 'formal')
+    # print_averages()
+
+    # load_data(INFORMAL_DATA_FILE_BIGGER, 'informal')
+    # print_averages()
+
     run_single()
